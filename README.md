@@ -4,12 +4,12 @@ If you want to compile on Android using [Termux](https://f-droid.org/en/packages
 
 **Install dependencies:**
 ```sh
-pkg install git wget make python getconf zip apksigner clang
+pkg install git wget make python getconf zip apksigner clang binutils
 ```
 
 **Clone the repository:**
 ```sh
-git clone https://github.com/VDavid003/sm64-port-android
+git clone https://github.com/Algiuxs/sm64-port-android
 cd sm64-port-android
 ```
 
