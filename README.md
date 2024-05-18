@@ -25,6 +25,21 @@ cp /sdcard/path/to/your/baserom.z64 ./baserom.us.z64
 ```sh
 ./getSDL.sh
 ```
+**Patches(optional):**
+60fps patch
+```
+tools/apply_patch.sh enchantments/60fps_ex.patch
+```
+
+DynOS 1.0 patch
+```
+tools/apply_patch.sh enchantments/DynOS.1.0.patch
+```
+
+To Revert Patch:
+```
+tools/revert_patch.sh enchantments/(PATCH NAME HERE).patch
+```
 
 **Build:**
 ```sh
