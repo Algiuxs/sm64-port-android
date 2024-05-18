@@ -86,3 +86,7 @@ For example `--savepath .` will read saves from the current directory (which not
 For building instructions, please refer to the [wiki](https://github.com/sm64pc/sm64ex/wiki).
 
 **Make sure you have MXE first before attempting to compile for Windows on Linux and WSL. Follow the guide on the wiki.**
+
+**DISCLAIMER**
+I AM NOT ACCOSIATED IN ANY WAY OR A PART OF NINTENDO.
+I DO NOT ENDORSE OR SUPPORT PIRACY.
