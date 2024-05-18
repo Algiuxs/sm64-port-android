@@ -29,9 +29,13 @@ cp /sdcard/path/to/your/baserom.z64 ./baserom.us.z64
 **Build:**
 ```sh
 # if you have more cores available, you can increase the --jobs parameter
+#this will error out, but don't worry, it's supposed to do that
 make --jobs 4
+cd tools/audiofile
+make -j 4
+cd ../..
+make -j 4
 ```
-
 **Enjoy your apk:**
 ```sh
 ls -al build/us_pc/sm64.us.f3dex2e.apk
