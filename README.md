@@ -36,6 +36,7 @@ cp /sdcard/path/to/your/baserom.z64 ./baserom.us.z64
 ./getSDL.sh
 ```
 **Patches(optional):**
+
 60fps patch
 ```
 tools/apply_patch.sh enchantments/60fps_ex.patch
