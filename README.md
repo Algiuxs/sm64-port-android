@@ -51,7 +51,11 @@ To Revert Patch:
 ```
 tools/revert_patch.sh enhancements/(PATCH NAME HERE).patch
 ```
-
+**Enhancements**
+if you want enhancements, you need to modify the near the top parameters of Makefile manually or by adding arguments to make:
+```
+nano Makefile
+```
 **Build:**
 ```sh
 # if you have more cores available, you can increase the --jobs parameter
