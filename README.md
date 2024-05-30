@@ -6,7 +6,7 @@ If you want to compile Super Mario 64 for Android on PC you'll probably want to 
 If you want to compile on Android using [Termux](https://f-droid.org/en/packages/com.termux/), follow these instructions in Termux:
 
 **Termux Update**
-```
+```sh
 pkg update
 pkg upgrade
 ```
@@ -14,7 +14,7 @@ pkg upgrade
 
 **Install dependencies:**
 ```sh
-pkg install git wget make python getconf zip apksigner clang
+pkg install git wget make python getconf zip nano apksigner clang
 ```
 
 **Clone the repository:**
@@ -38,23 +38,23 @@ cp /sdcard/path/to/your/baserom.z64 ./baserom.us.z64
 **Patches(optional):**
 
 60fps patch
-```
+```sh
 tools/apply_patch.sh enhancements/60fps_ex.patch
 ```
 
 DynOS 1.0 patch
-```
+```sh
 tools/apply_patch.sh enhancements/DynOS.1.0.patch
 ```
 
 To Revert Patch:
-```
+```sh
 tools/revert_patch.sh enhancements/(PATCH NAME HERE).patch
 ```
 **Enhancements**
 
 if you want enhancements, you need to modify the near the top parameters of Makefile manually or by adding arguments to make:
-```
+```sh
 nano Makefile
 ```
 **Build:**
