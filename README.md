@@ -14,7 +14,7 @@ pkg upgrade
 
 **Install dependencies:**
 ```sh
-pkg install git wget make python getconf zip nano apksigner clang
+pkg install git wget make python getconf zip nano apksigner clang which
 ```
 
 **Clone the repository:**
