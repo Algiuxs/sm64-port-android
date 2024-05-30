@@ -39,17 +39,17 @@ cp /sdcard/path/to/your/baserom.z64 ./baserom.us.z64
 
 60fps patch
 ```
-tools/apply_patch.sh enchantments/60fps_ex.patch
+tools/apply_patch.sh enhancements/60fps_ex.patch
 ```
 
 DynOS 1.0 patch
 ```
-tools/apply_patch.sh enchantments/DynOS.1.0.patch
+tools/apply_patch.sh enhancements/DynOS.1.0.patch
 ```
 
 To Revert Patch:
 ```
-tools/revert_patch.sh enchantments/(PATCH NAME HERE).patch
+tools/revert_patch.sh enhancements/(PATCH NAME HERE).patch
 ```
 
 **Build:**
