@@ -9,12 +9,14 @@ If you want to compile on Android using [Termux](https://f-droid.org/en/packages
 ```sh
 pkg update
 pkg upgrade
+pkg install x11-repo
+pkg update
 ```
 
 
 **Install dependencies:**
 ```sh
-pkg install git wget make python getconf zip nano apksigner clang which
+pkg install git wget make python getconf zip nano apksigner clang which mesa-dev
 ```
 
 **Clone the repository:**
