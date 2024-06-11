@@ -106,5 +106,5 @@ For building instructions, please refer to the [wiki](https://github.com/sm64pc/
 **Make sure you have MXE first before attempting to compile for Windows on Linux and WSL. Follow the guide on the wiki.**
 
 **DISCLAIMER**
+
 I AM NOT ACCOSIATED IN ANY WAY OR A PART OF NINTENDO.
-I DO NOT ENDORSE OR SUPPORT PIRACY.
