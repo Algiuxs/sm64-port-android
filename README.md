@@ -62,7 +62,7 @@ nano Makefile
 **Build:**
 ```sh
 # if you have more cores available, you can increase the --jobs parameter
-#this will error out, but don't worry, it's supposed to do that
+#this will throw an error, but don't worry, it's supposed to do that
 make --jobs 4
 cd tools/audiofile
 make -j 4
