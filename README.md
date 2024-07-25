@@ -39,12 +39,12 @@ cp /sdcard/path/to/your/baserom.z64 ./baserom.us.z64
 ```
 **Patches(optional):**
 
-60fps patch
+60fps patch:
 ```sh
 tools/apply_patch.sh enhancements/60fps_ex.patch
 ```
 
-DynOS 1.0 patch
+DynOS 1.0 patch:
 ```sh
 tools/apply_patch.sh enhancements/DynOS.1.0.patch
 ```
@@ -55,7 +55,7 @@ tools/revert_patch.sh enhancements/(PATCH NAME HERE).patch
 ```
 **Enhancements**
 
-if you want enhancements, you need to modify the near the top parameters of Makefile manually or by adding arguments to make:
+if you want enhancements, you need to modify the near the top parameters of Makefile manually or by adding arguments to make command:
 ```sh
 nano Makefile
 ```
