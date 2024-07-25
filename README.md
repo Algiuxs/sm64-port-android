@@ -16,7 +16,7 @@ pkg update
 
 **Install dependencies:**
 ```sh
-pkg install git wget make python getconf zip nano apksigner clang which mesa-dev
+pkg install git wget make python getconf zip nano apksigner clang which mesa-dev binutils
 ```
 
 **Clone the repository:**
