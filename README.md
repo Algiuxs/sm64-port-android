@@ -1,5 +1,5 @@
-Go checkout the original sm64-android port, he's the original port for Android author
-[VDavid003 port](https://github.com/VDavid003/sm64-port-android)
+Go checkout the original sm64-android port
+[VDavid003 port](https://github.com/VDavid003/sm64-port-android).
 
 # sm64ex Android Port
 If you want to compile Super Mario 64 for Android on PC you'll probably want to clone [this repo](https://github.com/Algiuxs/sm64-port-android-base) instead!
